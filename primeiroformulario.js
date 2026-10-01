@@ -4,6 +4,6 @@ let rodada = false;
 
 function movimento() {
     rodada = !rodada;
-    picareta.style.transform = rodada ? "rotate(90deg)" : "rotate(0deg)";
+    picareta.style.transform = rodada ? "rotate(-45deg)" : "rotate(45deg)";
 }
 nome.addEventListener("input", movimento);

@@ -13,6 +13,7 @@ header {
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
     padding: 1rem 2rem;
+    background-color: #542d16;
 }
 
 nav {
@@ -28,8 +29,13 @@ button {
     grid-column: 3;
     justify-self: end;
     font-size: 70%;
+
+    box-shadow:inset -3px -3px #407d14,inset 3px 3px #a4cf5e;
 }
 
+#barraDeNavegacao {
+    background-color: #542d16;
+}
 a {
     color: #542d16;
     background-color: #86b499;
